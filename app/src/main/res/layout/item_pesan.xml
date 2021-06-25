@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="20dp"
+    android:orientation="horizontal"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/gambar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/shop"/>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+          <TextView
+              android:id="@+id/tv_jenis"
+              android:layout_marginLeft="20dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Pakaian"
+              android:textColor="@color/black"
+              android:textSize="15sp"
+              android:fontFamily="@font/athitibold"/>
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:layout_marginLeft="20dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Rp. "
+                  android:textColor="@color/grey"
+                  android:textSize="15sp"
+                  android:fontFamily="@font/athitibold"/>
+              <TextView
+                  android:id="@+id/tv_harga"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="4.000,00/Kg"
+                  android:textColor="@color/grey"
+                  android:textSize="15sp"
+                  android:fontFamily="@font/athitibold"/>
+          </LinearLayout>
+
+      </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

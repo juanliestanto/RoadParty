@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RoadParty</string>
+
+    <string-array name="data_name">
+        <item>Agil</item>
+        <item>Juan</item>
+        \
+    </string-array>
+
+    <string-array name="data_desc">
+        <item>Iron Man is a superhero who wears a suit of armor. His alter ego is Tony Stark. He was created by Stan Lee, Jack Kirby and Larry Lieber for Marvel Comics in Tales of Suspense #39 in the year 1963 and appears in their comic books. He is also one of the main protagonists in the Marvel Cinematic Universe.</item>
+        <item>Captain America is the alter ego of Steve Rogers, a frail young man enhanced to the peak of human perfection by an experimental serum to aid the United States governments efforts in World War II. Near the end of the war, he was trapped in ice and survived in suspended animation until he was revived in modern times.</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
